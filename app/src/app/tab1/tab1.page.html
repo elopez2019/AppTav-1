@@ -1,8 +1,18 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+
+
     <ion-title>
       Tavsa
     </ion-title>
+
+    <ion-buttons slot="end">
+      <!-- Alinea los elementos a la derecha -->
+      <ion-tab-button (click)="goToLogin()" layout="icon-start">
+        <ion-label>Login</ion-label>
+        <ion-icon name="log-in"></ion-icon>
+      </ion-tab-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
